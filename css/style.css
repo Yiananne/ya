@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(134, 0, 187);
+  /* background-image:url("../img/laptop.png"); */
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+h1 {
+  font-size: 200px;
+  color: rgb(194, 111, 180);
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 18vw;
+}
+
+p {
+  font-size: 80px;
+  background-color: powderblue;
+  text-align: center;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: pink;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #333333;
+  overflow: hidden;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+div.motherContainer {
+  display: flex;
+}
+
+div.motherContainer div.left {
+  background-color: rgb(207, 166, 173);
+  width: 40%;
+  /*  float: left; */
+}
+
+div.motherContainer div.right {
+  background-color: red;
+  width: 60%;
+  /* float: left; */
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33%33.33%;
+  /*margin:0; */
+}
+
+.grid-container.left {
+  background-color: blue;
+}
+
+.grid-container.right {
+  background-color: blueviolet;
+}
+
+.grid-container.center {
+  background-color: hotpink;
+}
