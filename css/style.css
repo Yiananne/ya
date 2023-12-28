@@ -14,7 +14,7 @@ h1 {
 }
 
 p {
-  font-size: 80px;
+  font-size: 20px;
   background-color: powderblue;
   text-align: center;
 }
@@ -63,7 +63,7 @@ div.motherContainer div.left {
 
 div.motherContainer div.right {
   background-color: red;
-  width: 60%;
+  width: 50%;
   /* float: left; */
   text-align: center;
 }
@@ -71,7 +71,7 @@ div.motherContainer div.right {
 .grid-container {
   display: grid;
   grid-template-columns: 33.33% 33.33%33.33%;
-  /*margin:0; */
+  margin: 3;
 }
 
 .grid-container.left {
